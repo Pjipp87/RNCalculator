@@ -54,26 +54,30 @@ export default function App() {
       case "+":
         setFirstNum(showNum);
         setOperator("+");
-        setvorschau(firstNum + " " + operator);
+
         setShowNum(0);
+        setvorschau(firstNum + " " + operator);
         break;
       case "-":
         setFirstNum(showNum);
         setOperator("-");
-        setvorschau(firstNum + " " + operator);
+
         setShowNum(0);
+        setvorschau(firstNum + " " + operator);
         break;
       case "x":
         setFirstNum(showNum);
         setOperator("*");
-        setvorschau(firstNum + " " + operator);
+
         setShowNum(0);
+        setvorschau(firstNum + " " + operator);
         break;
       case "/":
         setFirstNum(showNum);
         setOperator("/");
-        setvorschau(firstNum + " " + operator);
+
         setShowNum(0);
+        setvorschau(firstNum + " " + operator);
         break;
       case "=":
         setvorschau(firstNum + operator + showNum);
